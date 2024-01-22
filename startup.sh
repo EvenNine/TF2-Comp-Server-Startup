@@ -42,4 +42,4 @@ sleep 5
 
 clear
 
-./srcds_run -game tf -console -port {{SERVER_PORT}} +map {{SRCDS_MAP}} +ip 0.0.0.0 -strictportbind -norestart +sv_setsteamaccount "{{STEAM_ACC}}" +exec "startup"
+./srcds_run -game tf -console -port ${SERVER_PORT} +map ${SRCDS_MAP} +ip 0.0.0.0 -strictportbind -norestart +sv_setsteamaccount "${STEAM_ACC}" +exec "startup"
