@@ -9,8 +9,7 @@ sv_password "${SERVER_PASSWORD}"
 tv_port "${STV_PORT}"
 tv_password "${STV_PASSWORD}"
 tv_enable "${STV_ON_STARTUP}"
-tv_name "${STV_NAME}"
-exec "${SERVER_CONFIG}"" > /home/container/tf/cfg/startup.cfg
+tv_name "${STV_NAME}" " > /home/container/tf/cfg/server.cfg
 
 clear
 
